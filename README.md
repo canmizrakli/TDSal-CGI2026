@@ -1,5 +1,7 @@
 # TDSal: A Task-Based Top-Down Saliency Prediction Model
 
+Note: the current code notebooks can have bugs/excess material, fixes will be completed as soon as possible.
+
 TDSal is a task-conditioned visual saliency prediction model that estimates where humans are likely to look in an image given an explicit natural-language viewing goal. Unlike conventional free-viewing saliency models, TDSal focuses on **top-down visual attention**, where gaze behavior is shaped by task intent.
 
 The model combines spatial visual features from a truncated YOLOv5su backbone with task embeddings from Sentence-BERT, then fuses them through a lightweight transformer module to produce dense task-conditioned saliency maps.
