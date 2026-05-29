@@ -67,33 +67,6 @@ TDSal was evaluated on a task-conditioned test split using standard saliency met
 | AUC-J | 0.9515 |
 | sAUC | 0.8649 |
 
-These results should be interpreted within the task-conditioned evaluation protocol. Since the dataset, task formulation, and annotation procedure differ from free-viewing benchmarks such as MIT300 and SALICON, the scores are not intended as direct benchmark comparisons.
-
-## Repository Contents
-
-This repository is intended to provide supplementary material for the CGI 2026 LNCS version of the TDSal paper. It may include:
-
-- Model implementation
-- Training and evaluation scripts
-- Dataset preparation utilities
-- Metric computation code
-- Example predictions and qualitative visualizations
-- Configuration files for reproducibility
-
-## Citation
-
-If you use this work or the supplementary material, please cite the corresponding paper:
-
-```bibtex
-@inproceedings{mizrakli2026tdsal,
-  title     = {TDSal: A Task-Based Top-Down Saliency Prediction Model},
-  author    = {Mizrakli, Can and Capin, Tolga K.},
-  booktitle = {Computer Graphics International 2026, Lecture Notes in Computer Science},
-  publisher = {Springer},
-  year      = {2026}
-}
-```
-
 ## Authors
 
 - Can Mizrakli — Karlsruhe Institute of Technology, Germany; TED University, Türkiye
